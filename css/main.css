@@ -35,7 +35,20 @@ footer {
 	background-color: #efefef;	
 }
 
+body {
+...
+	overflow-x:hidden;
+...
+}
 
+#recipeMenu {
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	z-index: 0;
+	width: 70%;
+	...
+}
 
 
 
