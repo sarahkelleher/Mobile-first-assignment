@@ -1,0 +1,54 @@
+.name {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px;
+	width: 100%;
+	background-color: #efefef;	
+}
+
+h1 {
+	margin: 0;
+}
+
+article {
+	margin-top: 100px;
+}
+
+
+.svg-menu {
+	position: absolute;
+	left: 0;
+	top: 0.25em;
+	width: 1em;
+	height: 0.15em;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	
+	margin: 0px;
+	width: 100%;
+	background-color: #efefef;	
+}
+
+body {
+...
+	overflow-x:hidden;
+...
+}
+
+#recipeMenu {
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	z-index: 0;
+	width: 70%;
+	...
+}
+
+
+
