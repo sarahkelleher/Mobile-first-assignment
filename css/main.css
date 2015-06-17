@@ -16,3 +16,15 @@ article {
 	margin-top: 100px;
 }
 
+
+.svg-menu {
+	position: absolute;
+	left: 0;
+	top: 0.25em;
+	width: 1em;
+	height: 0.15em;
+}
+
+
+
+
