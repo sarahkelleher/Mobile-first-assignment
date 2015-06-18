@@ -49,6 +49,38 @@ body {
 	width: 70%;
 	...
 }
+/*********************
+Side Menu Hidden Styling
+*********************/
+#openMenu {
+
+}
 
 
 
+
+
+
+/*********************
+Side Menu Selected Styling
+*********************/
+
+#openMenu  {
+	width: 70%;
+	max-height: 100%;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	background-color: #787878;	
+	text-align: left;
+	z-index: 0;
+	float: left;
+}
+
+#openMenu th li {
+	border: 1px solid black;
+}
+
+#openMenu li {
+	list-style: none;
+}
