@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	
+	height: 15%;
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -20,7 +20,7 @@ article {
 .svg-menu {
 	position: absolute;
 	left: 0;
-	top: 0.25em;
+	top: 1%;
 	width: 1em;
 	height: 0.15em;
 }
@@ -29,7 +29,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
-	
+	height: 5%;
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -69,8 +69,8 @@ Side Menu Selected Styling
 width: 70%;
 height: 100%;
 left: 0px;
-top: 0px;
 position: fixed;
+top: 15%;
 background-color: #787878;
 text-align: left;
 z-index: 0;
