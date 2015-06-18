@@ -1,7 +1,10 @@
 //Hide Menu
-$("#openMenu").hide();
-// // //When Hamburger Pressed
-// $(".svg-menu").click(function() {
-// 	$("#openMenu").show();
-// });
+$(document).ready(function(){
+	$("#openMenu").hide();
+	$("svg-menu").click(function(){
+		$("article").append(function() {
+			return $("#openMenu").show();
+		});
+	});
 
+});
