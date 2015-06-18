@@ -10,6 +10,19 @@
 
 h1 {
 	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
 }
 
 article {
@@ -52,14 +65,16 @@ body {
 /*********************
 Side Menu Hidden Styling
 *********************/
-#recipeMenuClosed {
-	background-color: yellow;
-
-
+ li {
+	list-style: none;
+	text-align: left;
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
 }
 
-
-
+#linkRecipes {
+	text-decoration: none;
+}
 
 
 
