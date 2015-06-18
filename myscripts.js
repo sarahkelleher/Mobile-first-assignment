@@ -1,5 +1,9 @@
 //Hide Menu
-$("#openMenu").hide();
+$("#recipeMenu").hide();
+$("hamburger").click(function(){
+	$("#recipeMenu").show();
+	$(this).remove();
+});
 // //Add button functionality
 // $("hamburger").click(function(){
 // 	$("#openMenu").show();
