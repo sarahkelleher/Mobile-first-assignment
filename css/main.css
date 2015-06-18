@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 10%;  /*making it so all of the header is visible above text*/
+	height: 8em;  /*making it so all of the header is visible above text*/
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -10,12 +10,10 @@
 
 h1 {
 	margin: 0;
-	background-color: #efefef;
-	padding: 1em;
 }
 
 article {
-	margin-top: 100px;
+	margin-top: 10em;  /*/making it so start of text is always visible even as it scrolls under*/
 }
 
 
@@ -31,7 +29,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
-	height: 5%;
+	height: 2em;
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -43,7 +41,7 @@ body {
 ...
 }
 
-#recipeMenu {
+.recipeMenu {
 	left: 0px;
 	top: 0px;
 	position: fixed;
@@ -54,8 +52,8 @@ body {
 /*********************
 Side Menu Hidden Styling
 *********************/
-#openMenu {
-
+#recipeMenuClosed {
+	background-color: yellow;
 
 
 }
@@ -69,7 +67,7 @@ Side Menu Hidden Styling
 Side Menu Selected Styling
 *********************/
 
-#recipeMenu  {
+.recipeMenu  {
 width: 70%;
 height: 100%;
 left: 0px;
@@ -81,7 +79,7 @@ z-index: 0;
 float: left;
 }
 
-#recipeMenu li {
+.recipeMenu li {
 list-style: none;
 padding: .25em;
 height: 100%;

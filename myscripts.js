@@ -1,7 +1,7 @@
 //Hide Menu
-$("#recipeMenu").hide();
+$(".recipeMenu").hide();
 $("hamburger").click(function(){
-	$("#recipeMenu").show();
+	$(".recipeMenu").show();
 	$(this).remove();
 });
 // //Add button functionality
