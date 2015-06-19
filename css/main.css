@@ -65,7 +65,7 @@ footer {
 
 body {
 ...
-	overflow-x:hidden;
+	overflow-x: hidden;
 ...
 }
 
@@ -74,50 +74,42 @@ body {
 /*******************
 NAV STYLING OPEN & CLOSED
 *******************/
-
-/*For when the hamburger is NOT clicked*/
-.recipeMenuClosed {
+/*For when the hamburger is clicked*/
+nav {
 	left: 0px;
 	top: 0px;
 	margin: 0px;
 	position: fixed;
-	z-index: 0;
-	width: 70%;
-
-}
-
-/*For when the hamburger is clicked*/
-#recipeMenuOpen {
-	left: 0px;
-	top: 0px;
-	margin: -900px;
-	position: relative;
-	z-index: 200;
+	/*z-index: 0;*/
 	width: 70%;
 	margin-top: 9em;
 	height: 100%;
 	background-color: #efefef;
+	
+}
+
+
+/*For when the hamburger is NOT clicked*/
+.recipeMenuClosed {
+	margin: -900px;
+	/*z-index: 200;*/
 	...
 }
 
-#recipeMenuOpen ul {
+nav ul {
 	text-align: left;
 	padding: 0 1em;
 	text-decoration: none;
 }
 
-#recipeMenuOpen a {
+nav a {
 	text-decoration: none;
 	font-size: 1.5em;
 }
 
-#recipeMenuOpen h2 {
+nav h2 {
 	padding: 3em 1em;
 }
-
-/*********************
-Side Menu Hidden Styling
-*********************/
 
 
 

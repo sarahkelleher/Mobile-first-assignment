@@ -6,7 +6,7 @@
 //Step1:  Listen for event:  Click
 //Step3:  Listen for event:  Click
 	$('#hamburgerMenu' ).click(function() {
-    		$('#recipeMenuOpen').show('slow', function() {
-    	})
+    		$('nav').addClass('recipeMenuClosed');
+    		$('nav').removeClass('recipeMenuClosed'); 	
 })
 //Step4:  Apply the recipeMenuClosed styling
