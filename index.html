@@ -3,6 +3,7 @@
 <head>
 	<meta name=“viewport” content="initial-scale=1.0"> 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<link href='http://fonts.googleapis.com/css?family=Corben|Poppins' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8">
 <title>Cook Me!</title>
@@ -17,15 +18,12 @@
 	</header>
 	<div id="contentLayer"></div> <!-- layed over content so that it is unclickable while menu is shown -->
 	<article id="content">
-		<table id ="openMenu">
 				<nav class="recipeMenu">
 					<ul id="linkRecipes">
 			  			<tr><th><li><a href="#recipeOne">Classic French Mussels</a></li></th></tr>
 			  			<tr><th><li><a href="#recipeTwo">Watercress Salad</a></li></th></tr>
 			  			<tr><th><li><a href="#recipeThree">Lava Cake</a></li></th></tr>
 					</ul>
-				</nav>
-		</table>
 		<section class="recipeOne" id="recipeOne">
 	 		<h2>Classic French Mussels</h2>
 				<img src="img/Classic_French_Mussels_sm.jpg" alt="Mussels Recipe"></img> <!-- these images sized in photoshop 100x100px we can use media queries to call for larger versions -->
@@ -97,15 +95,25 @@
 					Recipe courtesy of Ree Drummond</p>	
 
 		</section>
-		<a href= "#.name">Back To Top</a> 
+		<a href= "#name">Back To Top</a> 
 	</article>
-		
+		<table id ="openMenu">
+			<nav class="responsive-menu">
+				<ul>
+			  		<tr><th><li><a href="#recipeOne">Classic French Mussels</a></li></th></tr>
+			  		<tr><th><li><a href="#recipeTwo">Watercress Salad</a></li></th></tr>
+			  		<tr><th><li><a href="#recipeThree">Lava Cake</a></li></th></tr>
+				</ul>
+			</nav>
+		</table>
 	</body>
 
 
 <footer>
+	<div class="hamburger">
 	<a href="#openMenu"> <!-- making the hamburger clickable & linked to our table -->
 		 <img src="img/hamburger.svg" alt="hamburger"></img></a> 
+	</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />

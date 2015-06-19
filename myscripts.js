@@ -1,25 +1,13 @@
-//Hide Menu
-$(".recipeMenu").hide();
-$("hamburger").click(function(){
-	$(".recipeMenu").show();
-	$(this).remove();
-});
-// //Add button functionality
-// $("hamburger").click(function(){
-// 	$("#openMenu").show();
-// 	$("#openMenu").remove();
-// 	// $(this).remove();
-// });
+// //Hide Menu
+	// $("#openMenu").hide();
+	$( ".menu-btn").click(function(){
+		$(" .responsive-menu").addClass("expand")
+		$(" .menu-btn").addClass("btn-none")
+	})
 
-// jQuery(function($){
-//     	$( '#hamburger').click(function(){
-//     		$('#openMenu').addClass('expand')
-//     		$('#hamburger').addClass('btn-none')
-//     	})
-    	
-//     	 $( '.close-btn' ).click(function(){
-//     		$('#openMenu').removeClass('expand')
-//     		$('#hamburger').removeClass('btn-none')
-//     	})
-//   	})
-//  </script>
+	$( ".close-btn").click(function() {
+		$("#openMenu").removeClass("expand")
+		$(".menu-btn").removeClass("btn-none")
+	})
+
+
