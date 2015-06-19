@@ -1,13 +1,12 @@
-// //Hide Menu
-	// $("#openMenu").hide();
-	$( ".menu-btn").click(function(){
-		$(" .responsive-menu").addClass("expand")
-		$(" .menu-btn").addClass("btn-none")
-	})
+//PSEUDOCODE//
+//step0:  hide the recipeMenuOpen//
+// $(document).ready(function(){
 
-	$( ".close-btn").click(function() {
-		$("#openMenu").removeClass("expand")
-		$(".menu-btn").removeClass("btn-none")
-	})
-
-
+// }
+//Step1:  Listen for event:  Click
+//Step3:  Listen for event:  Click
+	$('#hamburgerMenu' ).click(function() {
+    		$('#recipeMenuOpen').show('slow', function() {
+    	})
+})
+//Step4:  Apply the recipeMenuClosed styling
