@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 25%;  /*making it so all of the header is visible above text*/
+	height: 8em;  /*making it so all of the header is visible above text*/
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -10,26 +10,31 @@
 
 h1 {
 	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
 }
 
 article {
-	margin-top: 100px;
+	margin-top: 10em;  /*/making it so start of text is always visible even as it scrolls under*/
 }
 
-
-.svg-menu {
-	position: absolute;
-	left: 0;
-	top: 1%;
-	width: 1em;
-	height: 0.15em;
-}
 
 footer {
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
-	height: 5%;
+	height: 2em;
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -41,9 +46,11 @@ body {
 ...
 }
 
-#recipeMenu {
+#openMenu {
+	background-color: yellow;
 	left: 0px;
 	top: 0px;
+	/*margin: -900px;*/
 	position: fixed;
 	z-index: 0;
 	width: 70%;
@@ -52,36 +59,14 @@ body {
 /*********************
 Side Menu Hidden Styling
 *********************/
-#openMenu {
-
+ li {
+	list-style: none;
+	text-align: left;
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
 }
 
 
 
 
 
-
-/*********************
-Side Menu Selected Styling
-*********************/
-
-#openMenu  {
-width: 70%;
-height: 100%;
-left: 0px;
-position: fixed;
-top: 15%;
-background-color: #787878;
-text-align: left;
-z-index: 0;
-float: left;
-}
-
-#openMenu li {
-list-style: none;
-padding: .25em;
-height: 100%;
-border: 1px solid #FFF ;
-}
-
-}
