@@ -1,35 +1,63 @@
-.name {
+/*******************
+Header Styling
+*******************/
+
+header {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	
+	height: 8em;  /*making it so all of the header is visible above text*/
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
+	padding: 2.5%;
 }
 
 h1 {
 	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
 }
 
-article {
-	margin-top: 100px;
+
+
+/*******************
+SECTION STYLING
+*******************/
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
+}
+
+li {
+	list-style: none;
+	text-align: left;
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
+}
+
+section {
+	margin-top: 5em;  /*/making it so start of text is always visible even as it scrolls under*/
+	margin-bottom: 5em;
 }
 
 
-.svg-menu {
-	position: absolute;
-	left: 0;
-	top: 0.25em;
-	width: 1em;
-	height: 0.15em;
-}
-
+/*******************
+FOOTER STYLING
+*******************/
 footer {
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
-	
+	height: 2em;
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
@@ -41,46 +69,57 @@ body {
 ...
 }
 
-#recipeMenu {
+
+
+/*******************
+NAV STYLING OPEN & CLOSED
+*******************/
+
+/*For when the hamburger is NOT clicked*/
+.recipeMenuClosed {
 	left: 0px;
 	top: 0px;
+	margin: 0px;
 	position: fixed;
 	z-index: 0;
 	width: 70%;
+
+}
+
+/*For when the hamburger is clicked*/
+#recipeMenuOpen {
+	left: 0px;
+	top: 0px;
+	margin: -900px;
+	position: relative;
+	z-index: 200;
+	width: 70%;
+	margin-top: 9em;
+	height: 100%;
+	background-color: #efefef;
 	...
 }
+
+#recipeMenuOpen ul {
+	text-align: left;
+	padding: 0 1em;
+	text-decoration: none;
+}
+
+#recipeMenuOpen a {
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+#recipeMenuOpen h2 {
+	padding: 3em 1em;
+}
+
 /*********************
 Side Menu Hidden Styling
 *********************/
-#openMenu {
-
-}
 
 
 
 
 
-
-/*********************
-Side Menu Selected Styling
-*********************/
-
-#openMenu  {
-	width: 70%;
-	max-height: 100%;
-	left: 0px;
-	top: 0px;
-	position: fixed;
-	background-color: #787878;	
-	text-align: left;
-	z-index: 0;
-	float: left;
-}
-
-#openMenu th li {
-	border: 1px solid black;
-}
-
-#openMenu li {
-	list-style: none;
-}
