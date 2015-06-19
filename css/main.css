@@ -1,4 +1,8 @@
-.name {
+/*******************
+Header Styling
+*******************/
+
+header {
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -6,6 +10,7 @@
 	margin: 0px;
 	width: 100%;
 	background-color: #efefef;	
+	padding: 2.5%;
 }
 
 h1 {
@@ -13,9 +18,16 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 }
+
+
+
+/*******************
+SECTION STYLING
+*******************/
 h2 {
 	font-family: 'Poppins', sans-serif;
 }
+
 h3 {
 	font-family: 'Poppins', sans-serif;
 }
@@ -25,11 +37,22 @@ p {
 	font-size: .9em;
 }
 
-article {
-	margin-top: 10em;  /*/making it so start of text is always visible even as it scrolls under*/
+li {
+	list-style: none;
+	text-align: left;
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
+}
+
+section {
+	margin-top: 5em;  /*/making it so start of text is always visible even as it scrolls under*/
+	margin-bottom: 5em;
 }
 
 
+/*******************
+FOOTER STYLING
+*******************/
 footer {
 	position: fixed;
 	bottom: 0px;
@@ -46,25 +69,38 @@ body {
 ...
 }
 
-#openMenu {
-	background-color: yellow;
+
+
+/*******************
+NAV STYLING OPEN & CLOSED
+*******************/
+
+/*For when the hamburger is clicked*/
+#recipeMenuOpen {
 	left: 0px;
 	top: 0px;
-	/*margin: -900px;*/
+	margin: -900px;
 	position: fixed;
 	z-index: 0;
 	width: 70%;
 	...
 }
+
+/*For when the hamburger is NOT clicked*/
+.recipeMenuClosed {
+	left: 0px;
+	top: 0px;
+	margin: 0;
+	position: fixed;
+	z-index: 0;
+	width: 70%;
+	...
+}
+
+
 /*********************
 Side Menu Hidden Styling
 *********************/
- li {
-	list-style: none;
-	text-align: left;
-	font-family: 'Corben', sans-serif;
-	font-size: .9em;
-}
 
 
 
