@@ -76,22 +76,16 @@ NAV STYLING OPEN & CLOSED
 *******************/
 
 /*For when the hamburger is NOT clicked*/
-.recipeMenuClosed {
+ nav {
+	margin: -900px;
+}
+
+/*For when the hamburger is clicked*/
+.recipeMenuOpen {
 	left: 0px;
 	top: 0px;
 	margin: 0px;
 	position: fixed;
-	z-index: 0;
-	width: 70%;
-
-}
-
-/*For when the hamburger is clicked*/
-#recipeMenuOpen {
-	left: 0px;
-	top: 0px;
-	margin: -900px;
-	position: relative;
 	z-index: 200;
 	width: 70%;
 	margin-top: 9em;
@@ -100,24 +94,21 @@ NAV STYLING OPEN & CLOSED
 	...
 }
 
-#recipeMenuOpen ul {
+nav ul {
 	text-align: left;
 	padding: 0 1em;
 	text-decoration: none;
 }
 
-#recipeMenuOpen a {
+nav a {
 	text-decoration: none;
 	font-size: 1.5em;
 }
 
-#recipeMenuOpen h2 {
+nav h2 {
 	padding: 3em 1em;
 }
 
-/*********************
-Side Menu Hidden Styling
-*********************/
 
 
 
