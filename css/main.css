@@ -11,6 +11,7 @@ header {
 	width: 100%;
 	background-color: #efefef;	
 	padding: 2.5%;
+	/*z-index: 200;*/
 }
 
 h1 {
@@ -72,7 +73,7 @@ li {
 
 
 section {
-	margin-top: 5em;  /*/making it so start of text is always visible even as it scrolls under*/
+	margin-top: 125em;  /*/making it so start of text is always visible even as it scrolls under*/
 	margin-bottom: 5em;
 }
 
@@ -119,7 +120,7 @@ nav {
 	top: 0px;
 	margin: 0px;
 	position: fixed;
-	z-index: 200;
+	/*z-index: 200;*/
 	width: 70%;
 	margin-top: 9em;
 	height: 100%;
