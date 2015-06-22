@@ -1,6 +1,9 @@
 
+
+
+
 $('#hamburgerMenu' ).click(function() {
-    		$('nav').toggleClass('recipeMenuOpen');
+    		$('nav').toggle('recipeMenuOpen');
     });
 
 // $(function)(){
