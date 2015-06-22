@@ -104,9 +104,6 @@ NAV STYLING OPEN & CLOSED
 
 
 /*For when the hamburger is NOT clicked*/
- nav {
-	margin: -900px;
-}
 
 
 /*For when the hamburger is clicked*/
