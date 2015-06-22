@@ -76,23 +76,21 @@ NAV STYLING OPEN & CLOSED
 *******************/
 /*For when the hamburger is clicked*/
 nav {
+	margin: -900px;
+	z-index: 0;
+}
+
+
+.recipeMenuOpen {
 	left: 0px;
 	top: 0px;
 	margin: 0px;
 	position: fixed;
-	/*z-index: 0;*/
+	z-index: 0;
 	width: 70%;
 	margin-top: 9em;
 	height: 100%;
 	background-color: #efefef;
-	
-}
-
-
-/*For when the hamburger is NOT clicked*/
-.recipeMenuClosed {
-	margin: -900px;
-	/*z-index: 200;*/
 	...
 }
 
