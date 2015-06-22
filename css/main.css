@@ -17,6 +17,7 @@ h1 {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
+
 }
 
 
@@ -40,9 +41,35 @@ p {
 li {
 	list-style: none;
 	text-align: left;
+}
+
+
+
+/*******************
+SECTION STYLING
+*******************/
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
 	font-family: 'Corben', sans-serif;
 	font-size: .9em;
 }
+
+
+
+li {
+	list-style: none;
+	text-align: left;
+	font-family: 'Corben', sans-serif;
+	font-size: .9em;
+}
+
 
 section {
 	margin-top: 5em;  /*/making it so start of text is always visible even as it scrolls under*/
@@ -65,7 +92,7 @@ footer {
 
 body {
 ...
-	overflow-x:hidden;
+	overflow-x: hidden;
 ...
 }
 
@@ -75,12 +102,21 @@ body {
 NAV STYLING OPEN & CLOSED
 *******************/
 
+
 /*For when the hamburger is NOT clicked*/
  nav {
 	margin: -900px;
 }
 
+
 /*For when the hamburger is clicked*/
+nav {
+	margin: -900px;
+	z-index: 0;
+}
+
+
+
 .recipeMenuOpen {
 	left: 0px;
 	top: 0px;
@@ -108,9 +144,6 @@ nav a {
 nav h2 {
 	padding: 3em 1em;
 }
-
-
-
 
 
 
