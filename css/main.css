@@ -62,9 +62,12 @@ p {
 	font-size: .9em;
 }
 
+.italics {
+	font-style: italic;
+}
 
 
-li {
+article li {
 	list-style: none;
 	text-align: left;
 	font-family: 'Corben', sans-serif;
@@ -73,8 +76,10 @@ li {
 
 
 section {
-	margin-top: 125em;  /*/making it so start of text is always visible even as it scrolls under*/
+
+	margin-top: 115em;  /*/making it so start of text is always visible even as it scrolls under*/
 	margin-bottom: 5em;
+	background-color: #F0FFFF;
 }
 
 
@@ -91,9 +96,14 @@ footer {
 	background-color: #efefef;	
 }
 
+.copyright {
+	font-size: .9em;
+}
+
+
 body {
 ...
-	overflow-x: hidden;
+	overflow: hidden;
 ...
 }
 
@@ -128,19 +138,21 @@ nav {
 	...
 }
 
-nav ul {
+.recipeMenuOpen ul {
 	text-align: left;
 	padding: 0 1em;
 	text-decoration: none;
 }
 
-nav a {
+.recipeMenuOpen a {
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.25em;
+	font-family: 'Poppins', sans-serif;
 }
 
-nav h2 {
+.recipeMenuOpen h2 {
 	padding: 3em 1em;
+
 }
 
 
