@@ -77,7 +77,7 @@ article li {
 
 section {
 
-	margin-top: 10em;  /*/making it so start of text is always visible even as it scrolls under*/
+	margin-top: 11em;  /*/making it so start of text is always visible even as it scrolls under*/
 	margin-bottom: 5em;
 	background-color: #F0FFFF;
 }
