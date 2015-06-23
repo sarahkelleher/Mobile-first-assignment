@@ -103,9 +103,7 @@ footer {
 
 
 body {
-...
 	overflow: hidden;
-...
 }
 
 
@@ -119,14 +117,15 @@ NAV STYLING OPEN & CLOSED
 
 
 /*For when the hamburger is clicked*/
-nav {
+/*nav {
 	margin: -900px;
 	z-index: 0;
-}
+}*/
 
 
 
 .recipeMenuOpen {
+	display: none;
 	left: 0px;
 	top: 0px;
 	margin: 0px;
@@ -136,7 +135,6 @@ nav {
 	margin-top: 9em;
 	height: 100%;
 	background-color: #efefef;
-	...
 }
 
 .recipeMenuOpen ul {

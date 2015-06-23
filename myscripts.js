@@ -3,8 +3,9 @@
 
 
 $('#hamburgerMenu' ).click(function() {
-    		$('nav').toggle('recipeMenuOpen');
+    		$('nav').toggle();
     });
+
 
 // $(function)(){
 // 	$('nav').hide();
